@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		55804C9129EB587900BD9514 /* CryptooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55804C9029EB587900BD9514 /* CryptooApp.swift */; };
 		55804C9329EB587900BD9514 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55804C9229EB587900BD9514 /* ContentView.swift */; };
-		55804C9529EB587B00BD9514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55804C9429EB587B00BD9514 /* Assets.xcassets */; };
 		55804C9829EB587B00BD9514 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55804C9729EB587B00BD9514 /* Preview Assets.xcassets */; };
+		55C6289329EB5B0400900DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C6289229EB5B0400900DC0 /* Assets.xcassets */; };
+		55C6289629EB5C4500900DC0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6289529EB5C4500900DC0 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55804C8D29EB587900BD9514 /* Cryptoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55804C9029EB587900BD9514 /* CryptooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptooApp.swift; sourceTree = "<group>"; };
 		55804C9229EB587900BD9514 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		55804C9429EB587B00BD9514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55804C9729EB587B00BD9514 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55C6289229EB5B0400900DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		55C6289529EB5C4500900DC0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +53,10 @@
 		55804C8F29EB587900BD9514 /* Cryptoo */ = {
 			isa = PBXGroup;
 			children = (
+				55C6289429EB5C2700900DC0 /* Extention */,
 				55804C9029EB587900BD9514 /* CryptooApp.swift */,
 				55804C9229EB587900BD9514 /* ContentView.swift */,
-				55804C9429EB587B00BD9514 /* Assets.xcassets */,
+				55C6289229EB5B0400900DC0 /* Assets.xcassets */,
 				55804C9629EB587B00BD9514 /* Preview Content */,
 			);
 			path = Cryptoo;
@@ -65,6 +68,14 @@
 				55804C9729EB587B00BD9514 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55C6289429EB5C2700900DC0 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				55C6289529EB5C4500900DC0 /* Color.swift */,
+			);
+			path = Extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55804C9829EB587B00BD9514 /* Preview Assets.xcassets in Resources */,
-				55804C9529EB587B00BD9514 /* Assets.xcassets in Resources */,
+				55C6289329EB5B0400900DC0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +150,7 @@
 			files = (
 				55804C9329EB587900BD9514 /* ContentView.swift in Sources */,
 				55804C9129EB587900BD9514 /* CryptooApp.swift in Sources */,
+				55C6289629EB5C4500900DC0 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
