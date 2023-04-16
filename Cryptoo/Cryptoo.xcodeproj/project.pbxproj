@@ -12,6 +12,9 @@
 		55804C9829EB587B00BD9514 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55804C9729EB587B00BD9514 /* Preview Assets.xcassets */; };
 		55C6289329EB5B0400900DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C6289229EB5B0400900DC0 /* Assets.xcassets */; };
 		55C6289629EB5C4500900DC0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6289529EB5C4500900DC0 /* Color.swift */; };
+		55C6289B29EC34C400900DC0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6289A29EC34C400900DC0 /* HomeView.swift */; };
+		55C628A529EC3F4D00900DC0 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C628A429EC3F4D00900DC0 /* CircleButtonView.swift */; };
+		55C628A729EC9F4D00900DC0 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C628A629EC9F4D00900DC0 /* CircleButtonAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		55804C9729EB587B00BD9514 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55C6289229EB5B0400900DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		55C6289529EB5C4500900DC0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		55C6289A29EC34C400900DC0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		55C628A429EC3F4D00900DC0 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		55C628A629EC9F4D00900DC0 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,9 @@
 		55804C8F29EB587900BD9514 /* Cryptoo */ = {
 			isa = PBXGroup;
 			children = (
-				55C6289429EB5C2700900DC0 /* Extention */,
 				55804C9029EB587900BD9514 /* CryptooApp.swift */,
+				55C6289429EB5C2700900DC0 /* Extention */,
+				55C6289729EC346500900DC0 /* Core */,
 				55804C9229EB587900BD9514 /* ContentView.swift */,
 				55C6289229EB5B0400900DC0 /* Assets.xcassets */,
 				55804C9629EB587B00BD9514 /* Preview Content */,
@@ -76,6 +83,56 @@
 				55C6289529EB5C4500900DC0 /* Color.swift */,
 			);
 			path = Extention;
+			sourceTree = "<group>";
+		};
+		55C6289729EC346500900DC0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				55C628A329EC3F0800900DC0 /* Components */,
+				55C6289D29EC3EBA00900DC0 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		55C6289829EC347300900DC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55C6289A29EC34C400900DC0 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55C6289929EC347F00900DC0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		55C6289D29EC3EBA00900DC0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				55C6289929EC347F00900DC0 /* ViewModel */,
+				55C6289829EC347300900DC0 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		55C6289E29EC3EC600900DC0 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				55C628A429EC3F4D00900DC0 /* CircleButtonView.swift */,
+				55C628A629EC9F4D00900DC0 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		55C628A329EC3F0800900DC0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				55C6289E29EC3EC600900DC0 /* CircleButton */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +206,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55804C9329EB587900BD9514 /* ContentView.swift in Sources */,
+				55C6289B29EC34C400900DC0 /* HomeView.swift in Sources */,
 				55804C9129EB587900BD9514 /* CryptooApp.swift in Sources */,
+				55C628A729EC9F4D00900DC0 /* CircleButtonAnimationView.swift in Sources */,
+				55C628A529EC3F4D00900DC0 /* CircleButtonView.swift in Sources */,
 				55C6289629EB5C4500900DC0 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
