@@ -22,7 +22,7 @@ struct HomeView: View {
                 Spacer(minLength: 0)
             }
         }
-    }
+    } 
 }
 
 struct HomeView_Previews: PreviewProvider {
