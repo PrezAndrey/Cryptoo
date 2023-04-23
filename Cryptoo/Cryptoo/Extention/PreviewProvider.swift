@@ -18,8 +18,9 @@ extension PreviewProvider {
 class DeveloperPreview {
     
     static let instance = DeveloperPreview()
-    
     private init() { }
+    
+    let homeVM = HomeViewModel()
     
     let coin = Coin(id: "bitcoin", symbol: "btc", name: "Bitcoin", image: "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579", currentPrice: 29486, marketCap: 570307943927, marketCapRank: 1, fullyDilutedValuation: 618968858669, totalVolume: 16948778330, high24H: 30419, low24H: 29327, priceChange24H: -902.0098856333279, priceChangePercentage24H: -2.96831, marketCapChange24H: -16631456874.37207, marketCapChangePercentage24H: -2.83359, circulatingSupply: 19349062, totalSupply: 21000000, maxSupply: 21000000, ath: 69045, athChangePercentage: -57.29521, athDate: "2021-11-10T14:24:11.849Z", atl: 67.81, atlChangePercentage: 43383.05468, atlDate: "2013-07-06T00:00:00.000Z", lastUpdated: "2023-04-17T20:34:57.249Z", sparklineIn7D: SparklineIn7D(price: [
         30009.59523399315,
