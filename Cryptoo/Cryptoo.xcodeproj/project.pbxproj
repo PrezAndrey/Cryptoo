@@ -20,6 +20,7 @@
 		55E79C3B29F03A750001AA49 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E79C3A29F03A750001AA49 /* PreviewProvider.swift */; };
 		55E79C4029F32D0E0001AA49 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E79C3F29F32D0E0001AA49 /* Double.swift */; };
 		55E79C4229F5DBDE0001AA49 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E79C4129F5DBDE0001AA49 /* HomeViewModel.swift */; };
+		55E79C4529F7240A0001AA49 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E79C4429F7240A0001AA49 /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		55E79C3A29F03A750001AA49 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		55E79C3F29F32D0E0001AA49 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		55E79C4129F5DBDE0001AA49 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		55E79C4429F7240A0001AA49 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		55804C8F29EB587900BD9514 /* Cryptoo */ = {
 			isa = PBXGroup;
 			children = (
+				55E79C4329F723ED0001AA49 /* Services */,
 				55C628A829EDE3C300900DC0 /* Model */,
 				55804C9029EB587900BD9514 /* CryptooApp.swift */,
 				55C6289429EB5C2700900DC0 /* Extention */,
@@ -158,6 +161,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		55E79C4329F723ED0001AA49 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				55E79C4429F7240A0001AA49 /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E79C4529F7240A0001AA49 /* CoinDataService.swift in Sources */,
 				55E79C3929F038E00001AA49 /* CoinRowView.swift in Sources */,
 				55E79C4229F5DBDE0001AA49 /* HomeViewModel.swift in Sources */,
 				55804C9329EB587900BD9514 /* ContentView.swift in Sources */,
