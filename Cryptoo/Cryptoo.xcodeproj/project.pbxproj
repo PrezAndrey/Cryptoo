@@ -21,6 +21,7 @@
 		55E79C4029F32D0E0001AA49 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E79C3F29F32D0E0001AA49 /* Double.swift */; };
 		55E79C4229F5DBDE0001AA49 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E79C4129F5DBDE0001AA49 /* HomeViewModel.swift */; };
 		55E79C4529F7240A0001AA49 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E79C4429F7240A0001AA49 /* CoinDataService.swift */; };
+		55E79C4829F8733E0001AA49 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E79C4729F8733E0001AA49 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		55E79C3F29F32D0E0001AA49 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		55E79C4129F5DBDE0001AA49 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		55E79C4429F7240A0001AA49 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		55E79C4729F8733E0001AA49 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkingManager.swift; path = ../../../../../NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +73,10 @@
 		55804C8F29EB587900BD9514 /* Cryptoo */ = {
 			isa = PBXGroup;
 			children = (
+				55804C9029EB587900BD9514 /* CryptooApp.swift */,
+				55E79C4629F873120001AA49 /* Utilities */,
 				55E79C4329F723ED0001AA49 /* Services */,
 				55C628A829EDE3C300900DC0 /* Model */,
-				55804C9029EB587900BD9514 /* CryptooApp.swift */,
 				55C6289429EB5C2700900DC0 /* Extention */,
 				55C6289729EC346500900DC0 /* Core */,
 				55804C9229EB587900BD9514 /* ContentView.swift */,
@@ -169,6 +172,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		55E79C4629F873120001AA49 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				55E79C4729F8733E0001AA49 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +258,7 @@
 				55804C9129EB587900BD9514 /* CryptooApp.swift in Sources */,
 				55C628A729EC9F4D00900DC0 /* CircleButtonAnimationView.swift in Sources */,
 				55C628A529EC3F4D00900DC0 /* CircleButtonView.swift in Sources */,
+				55E79C4829F8733E0001AA49 /* NetworkingManager.swift in Sources */,
 				55C6289629EB5C4500900DC0 /* Color.swift in Sources */,
 				55E79C3B29F03A750001AA49 /* PreviewProvider.swift in Sources */,
 				55E79C4029F32D0E0001AA49 /* Double.swift in Sources */,
