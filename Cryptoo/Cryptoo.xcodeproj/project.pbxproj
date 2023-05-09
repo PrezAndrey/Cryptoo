@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55247EB22A099B5E0064E1C2 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55247EB12A099B5E0064E1C2 /* Statistic.swift */; };
+		55247EB42A099D4D0064E1C2 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55247EB32A099D4D0064E1C2 /* StatisticView.swift */; };
+		5547284D2A09C6BF002D96D3 /* HomeStatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5547284C2A09C6BF002D96D3 /* HomeStatisticView.swift */; };
 		55804C9129EB587900BD9514 /* CryptooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55804C9029EB587900BD9514 /* CryptooApp.swift */; };
 		55804C9329EB587900BD9514 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55804C9229EB587900BD9514 /* ContentView.swift */; };
 		55804C9829EB587B00BD9514 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55804C9729EB587B00BD9514 /* Preview Assets.xcassets */; };
@@ -31,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55247EB12A099B5E0064E1C2 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		55247EB32A099D4D0064E1C2 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		5547284C2A09C6BF002D96D3 /* HomeStatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatisticView.swift; sourceTree = "<group>"; };
 		55804C8D29EB587900BD9514 /* Cryptoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55804C9029EB587900BD9514 /* CryptooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptooApp.swift; sourceTree = "<group>"; };
 		55804C9229EB587900BD9514 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +137,7 @@
 			children = (
 				55C6289A29EC34C400900DC0 /* HomeView.swift */,
 				55E79C3829F038E00001AA49 /* CoinRowView.swift */,
+				5547284C2A09C6BF002D96D3 /* HomeStatisticView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +174,7 @@
 				55E79C4D29F9B8DB0001AA49 /* CoinImage */,
 				55C6289E29EC3EC600900DC0 /* CircleButton */,
 				55E645EF2A06862800D3C009 /* SearchBarView.swift */,
+				55247EB32A099D4D0064E1C2 /* StatisticView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -175,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				55C628A929EDE3DB00900DC0 /* Coin.swift */,
+				55247EB12A099B5E0064E1C2 /* Statistic.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -276,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5547284D2A09C6BF002D96D3 /* HomeStatisticView.swift in Sources */,
 				55E79C4529F7240A0001AA49 /* CoinDataService.swift in Sources */,
 				55E79C3929F038E00001AA49 /* CoinRowView.swift in Sources */,
 				55E79C4229F5DBDE0001AA49 /* HomeViewModel.swift in Sources */,
@@ -283,6 +293,7 @@
 				55E645EA2A044F1900D3C009 /* LocalFileManager.swift in Sources */,
 				55C6289B29EC34C400900DC0 /* HomeView.swift in Sources */,
 				55E79C4F29F9B8F70001AA49 /* CoinImageView.swift in Sources */,
+				55247EB42A099D4D0064E1C2 /* StatisticView.swift in Sources */,
 				55804C9129EB587900BD9514 /* CryptooApp.swift in Sources */,
 				55E645F22A06F37300D3C009 /* UIApplication.swift in Sources */,
 				55C628A729EC9F4D00900DC0 /* CircleButtonAnimationView.swift in Sources */,
@@ -294,6 +305,7 @@
 				55E79C3B29F03A750001AA49 /* PreviewProvider.swift in Sources */,
 				55E79C4029F32D0E0001AA49 /* Double.swift in Sources */,
 				55E79C5129F9C0830001AA49 /* CoinImageService.swift in Sources */,
+				55247EB22A099B5E0064E1C2 /* Statistic.swift in Sources */,
 				55C628AA29EDE3DB00900DC0 /* Coin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
