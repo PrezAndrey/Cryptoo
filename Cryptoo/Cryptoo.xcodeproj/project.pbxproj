@@ -13,6 +13,8 @@
 		55804C9129EB587900BD9514 /* CryptooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55804C9029EB587900BD9514 /* CryptooApp.swift */; };
 		55804C9329EB587900BD9514 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55804C9229EB587900BD9514 /* ContentView.swift */; };
 		55804C9829EB587B00BD9514 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55804C9729EB587B00BD9514 /* Preview Assets.xcassets */; };
+		5591DAAE2A0D1CF500884C74 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591DAAD2A0D1CF500884C74 /* MarketDataModel.swift */; };
+		5591DAB02A0D251F00884C74 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591DAAF2A0D251F00884C74 /* MarketDataService.swift */; };
 		55C6289329EB5B0400900DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C6289229EB5B0400900DC0 /* Assets.xcassets */; };
 		55C6289629EB5C4500900DC0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6289529EB5C4500900DC0 /* Color.swift */; };
 		55C6289B29EC34C400900DC0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6289A29EC34C400900DC0 /* HomeView.swift */; };
@@ -41,6 +43,8 @@
 		55804C9029EB587900BD9514 /* CryptooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptooApp.swift; sourceTree = "<group>"; };
 		55804C9229EB587900BD9514 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55804C9729EB587B00BD9514 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5591DAAD2A0D1CF500884C74 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
+		5591DAAF2A0D251F00884C74 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		55C6289229EB5B0400900DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		55C6289529EB5C4500900DC0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		55C6289A29EC34C400900DC0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 			children = (
 				55C628A929EDE3DB00900DC0 /* Coin.swift */,
 				55247EB12A099B5E0064E1C2 /* Statistic.swift */,
+				5591DAAD2A0D1CF500884C74 /* MarketDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			children = (
 				55E79C4429F7240A0001AA49 /* CoinDataService.swift */,
 				55E79C5029F9C0830001AA49 /* CoinImageService.swift */,
+				5591DAAF2A0D251F00884C74 /* MarketDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				55E79C4229F5DBDE0001AA49 /* HomeViewModel.swift in Sources */,
 				55804C9329EB587900BD9514 /* ContentView.swift in Sources */,
 				55E645EA2A044F1900D3C009 /* LocalFileManager.swift in Sources */,
+				5591DAAE2A0D1CF500884C74 /* MarketDataModel.swift in Sources */,
 				55C6289B29EC34C400900DC0 /* HomeView.swift in Sources */,
 				55E79C4F29F9B8F70001AA49 /* CoinImageView.swift in Sources */,
 				55247EB42A099D4D0064E1C2 /* StatisticView.swift in Sources */,
@@ -301,6 +308,7 @@
 				55E645F02A06862800D3C009 /* SearchBarView.swift in Sources */,
 				55E79C4829F8733E0001AA49 /* NetworkingManager.swift in Sources */,
 				55C6289629EB5C4500900DC0 /* Color.swift in Sources */,
+				5591DAB02A0D251F00884C74 /* MarketDataService.swift in Sources */,
 				55E79C5329F9C20E0001AA49 /* CoinImageViewModel.swift in Sources */,
 				55E79C3B29F03A750001AA49 /* PreviewProvider.swift in Sources */,
 				55E79C4029F32D0E0001AA49 /* Double.swift in Sources */,
